@@ -1,0 +1,141 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title-options {
+    text-align: center;
+    color: white;
+    background-color: #000;
+}
+
+.container {
+    padding: 10px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 14px;
+}
+
+.btn-success {
+    background-color: darkblue;
+    border-radius: 4px;
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mt-3 {
+    margin-top: 18px;
+}
+
+.text-options {
+    text-align: center;
+    color: white;
+    background-color: #000;
+    margin: 0px 280px 0px 280px;
+}
+
+body {
+    background-color: rgb(6, 6, 128);
+    background-size: cover;
+    background-position: center;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 20px;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.nav-item:hover {
+    color: #cbcbcb;
+
+}
+
+/* CARD */
+.card {
+    border: 1px solid #000;
+    background-color: white;
+    width: 100%;
+}
+
+.card .card-body, .card .card-title {
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.brand {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    padding-left: 35px;
+}
+
+.nome-marca {
+    font-size: 55px;
+    color: #fff;
+}
+
+.texto {
+    padding-top: 10px;
+    width: 1000px;
+    display: flex;
+    background-color: #000;
+    display: flex;
+    font-size: 18px;
+	line-height: 1.6;
+    color: #fff;
+}
+
+.playstation-icone {
+    padding-top: 10px;
+    display: flex;
+    height: 200px;
+    margin-left: 20px;
+    float: left;
+    margin-right: 50px;
+}
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    }
